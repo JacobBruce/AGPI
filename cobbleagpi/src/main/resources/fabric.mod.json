@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "cobbleagpi",
+	"version": "${version}",
+	"name": "CobbleAGPI",
+	"description": "AGPI companion for Radical Cobblemon Trainers battles.",
+	"authors": [
+		"Loci"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/cobbleagpi/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"bitfreak.cobbleagpi.CobbleAGPI"
+		],
+		"client": [
+			"bitfreak.cobbleagpi.client.CobbleAGPIClient"
+		]
+	},
+	"mixins": [
+		"cobbleagpi.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"cobblemon": ">=1.8.0 <1.9.0",
+		"rctapi": ">=0.16.0-beta <0.17.0"
+	}
+}

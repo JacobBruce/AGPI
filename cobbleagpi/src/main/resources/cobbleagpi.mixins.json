@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "bitfreak.cobbleagpi.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"AiChoiceMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
