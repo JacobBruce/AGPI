@@ -1,10 +1,24 @@
 # CobbleAGPI
 
-A Fabric mod for Minecraft that lets AI agents play Cobblemon battles against Radical Cobblemon Trainers.
+A Fabric mod for Minecraft that lets AI agents participate in Cobblemon battles by controlling Radical Cobblemon Trainers.
 
-It speaks AGPI on loopback so [Loci](https://github.com/JacobBruce/Loci) can watch a battle, and it leaves move choice to RCT's AI.
+This mod was made as a proof-of-concept for the [Agent Game Playing Interface](https://github.com/JacobBruce/AGPI) and requires the [Loci](https://github.com/JacobBruce/Loci) harness to work.
 
-If you are looking for the latest version of this mod see the [releases](https://github.com/JacobBruce/AGPI/releases) page or the [Modrinth](https://modrinth.com/mod/cobbleagpi) page.
+If you are looking for the latest version of this mod please see the [Modrinth page](https://modrinth.com/mod/cobbleagpi).
+
+## Getting started:
+
+1. [Download](https://github.com/JacobBruce/Loci/releases) Loci then run it and create a new house
+2. Install the [skill file](https://github.com/JacobBruce/AGPI/cobbleagpi/cobblemon.md) and enable it for your house
+3. Download and install this mod into your Minecraft instance
+4. Start Minecraft then enable gaming mode in Loci using the game console
+5. The agent controls the trainer when a battle starts and talks in chat as them
+
+## Required mods:
+
+- [Cobblemon](https://modrinth.com/mod/cobblemon)
+- [Radical Cobblemon Trainers API](https://modrinth.com/mod/rctapi/)
+- [Radical Cobblemon Trainers](https://modrinth.com/mod/rctmod/)
 
 ## Build
 
