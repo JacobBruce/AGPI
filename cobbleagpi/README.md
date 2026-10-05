@@ -8,7 +8,7 @@ If you are looking for the latest version of this mod please see the [Modrinth p
 
 ## Getting started:
 
-1. [Download](https://github.com/JacobBruce/Loci/releases) Loci then run it and create a new house
+1. Download Loci then run it and create a new house
 2. Install the [skill file](https://github.com/JacobBruce/AGPI/cobbleagpi/cobblemon.md) and enable it for your house
 3. Download and install this mod into your Minecraft instance
 4. Start Minecraft then enable gaming mode in Loci using the game console
